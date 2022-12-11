@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 .header{
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/header.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.pexels.com/photos/13549354/pexels-photo-13549354.jpeg?auto=compress&cs=tinysrgb&w=600") center/cover no-repeat;
     color: #fff;
 }
 .top-nav a{
@@ -228,7 +228,7 @@ blockquote span{
 }
 .sec-one-left{
     height: 100vh;
-    background: url("images/project-main.jpg") center/cover no-repeat;
+    background: url("https://images.pexels.com/photos/5702320/pexels-photo-5702320.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load") center/cover no-repeat;
     box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
@@ -268,12 +268,12 @@ blockquote span{
     grid-column-gap: 20px;
 }
 .work-img-1{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("images/porject-1.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("https://images.pexels.com/photos/7148417/pexels-photo-7148417.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center/cover no-repeat;
     height: 400px;
     transition: var(--transition);
 }
 .work-img-2{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("images/porject-2.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("https://images.pexels.com/photos/7148433/pexels-photo-7148433.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center/cover no-repeat;
     height: 400px;
     transition: var(--transition);
 }
@@ -551,6 +551,10 @@ blockquote span{
         grid-gap: 20px;
     }
     
+}.nav-sectio{
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 @media screen and (min-width: 992px){
@@ -711,4 +715,7 @@ blockquote span{
         grid-template-columns: 1fr;
         grid-row-gap: 20px;
     }
+}
+.header-bg{
+    background-color: black !important;
 }
